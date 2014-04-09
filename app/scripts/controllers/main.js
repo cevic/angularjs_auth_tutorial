@@ -18,6 +18,6 @@ angular.module('angularjsAuthTutorialApp')
 
         $scope.$on(UserEventsService.logout.logoutSuccess, function(e, userDataObj) {
 
-            $location.url('/')
+            $location.url('/');
         })
     }]);
