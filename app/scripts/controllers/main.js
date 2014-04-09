@@ -16,7 +16,7 @@ angular.module('angularjsAuthTutorialApp')
     }])
     .controller('LogoutCtrl', ['$scope', '$location', 'UserEventsService', function($scope, $location, UserEventsService) {
 
-        $scope.$on(UserEventsService.logout.logoutSuccess, function(e) {
+        $scope.$on(UserEventsService.logout.logoutSuccess, function(e, userDataObj) {
 
             $location.url('/')
         })

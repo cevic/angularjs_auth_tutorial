@@ -8,7 +8,7 @@ angular
         'ngRoute',
         'dfUserManagement'
     ])
-    .constant('DSP_URL', 'http://192.168.1.16:8082')
+    .constant('DSP_URL', 'http://10.0.0.5:8082')
     .constant('DSP_API_KEY', 'admin')
     .config(['$httpProvider', 'DSP_API_KEY', function ($httpProvider, DSP_API_KEY) {
 
