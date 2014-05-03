@@ -8,8 +8,8 @@ angular
         'ngRoute',
         'dfUserManagement'
     ])
-    .constant('DSP_URL', YOUR_DSP_URL_HERE)
-    .constant('DSP_API_KEY', 'admin')
+    .constant('DSP_URL', /* ENTER_YOUR_DSP_URL */)
+    .constant('DSP_API_KEY', /* ENTER_YOUR_APP_NAME */)
     .config(['$httpProvider', 'DSP_API_KEY', function ($httpProvider, DSP_API_KEY) {
 
         // Set default headers for http requests
